@@ -1,0 +1,31 @@
+# AIの振る舞い設定 (false: 真面目, true: 遊び心あり)
+have_fun: false
+
+# 記憶機能の設定
+memory_config:
+  # 記憶機能を有効にする (false = 有効)
+  disabled: false
+
+# コードレビュー機能の設定
+code_review:
+  # レビュー機能を有効にする (false = 有効)
+  disable: false
+  # コメントする問題の重要度しきい値 (MEDIUM以上のみ指摘)
+  comment_severity_threshold: MEDIUM
+  # 1回のレビューでの最大コメント数 (-1: 無制限)
+  max_review_comments: 20
+  # プルリクエスト作成時の動作設定
+  pull_request_opened:
+    # ヘルプメッセージを表示しない
+    help: false
+    # 変更内容の要約を生成する
+    summary: true
+    # 自動でコードレビューを実行する
+    code_review: true
+    # 下書き(Draft)PRもレビュー対象にする
+    include_drafts: true
+
+# レビュー対象外にするファイルのパターン
+ignore_patterns:
+  - "yarn.lock"
+  - "public/**"
