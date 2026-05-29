@@ -77,25 +77,26 @@ void R_MAIN_UserInit(void);
 ***********************************************************************************************************************/
 void main(void)
 {
-    /* 各種状態管理変数 */
     unsigned char sw1_state = 0;  /* 0~3の4状態 */
-    unsigned char sw2_state = 0;  /* 0~1の2状態 */
+    unsigned char sw2_state = 0;  /* 0~3の4状態 */
     
-    unsigned int p16_high_duration = 0; /* P16がHになってからの時間(ms) */
-    unsigned int alert_blink_timer = 0; /* アラート時のLED点滅用タイマ */
-    
-    unsigned char prev_p16 = 0;   /* 前回ループ時のP16の状態 */
+    unsigned int monitor_duration = 0; /* 出力(P16 or P17)がHになってからの時間(ms) */
+    unsigned char prev_output_active = 0; /* 前回ループ時の出力状態(P16 or P17がHなら1) */
+    unsigned char current_output_active = 0; /* 今回ループ時の出力状態 */
     unsigned int adc_val = 0;
     
     R_MAIN_UserInit();
-
     /* Start user code. Do not edit comment generated here */
+    
     /* A/Dコンバータ初期化＆タイマスタート */
     R_ADC_Set_OperationOn();
     R_TAU0_Channel0_Start();
+
     while (1U)
     {
-	R_WDT_Restart();
+        /* ウォッチドッグタイマのクリア */
+        R_WDT_Restart();
+
         /* --- 1. アラート（異常検出）状態の処理 --- */
         if (g_system_mode == STATE_ALERT)
         {
@@ -115,7 +116,7 @@ void main(void)
                 if (g_timer_1ms >= 100)
                 {
                     g_timer_1ms = 0;
-                    P0_bit.no0 = 1;          /* P00=H 念のため固定 */
+                    P0_bit.no0 = 1;          /* P00=H 固定 */
                     P0_bit.no1 = ~P0_bit.no1; /* P01反転 */
                 }
             }
@@ -140,41 +141,53 @@ void main(void)
         /* SW2 (P122) の押下判定 */
         if (check_sw2_click())
         {
-            sw2_state = (sw2_state + 1) % 2;
+            sw2_state = (sw2_state + 1) % 4;
             switch (sw2_state)
             {
                 case 0: P1_bit.no6 = 0; P1_bit.no7 = 0; break; /* 1. P16=L, P17=L */
                 case 1: P1_bit.no6 = 1; P1_bit.no7 = 0; break; /* 2. P16=H, P17=L */
+                case 2: P1_bit.no6 = 0; P1_bit.no7 = 0; break; /* 3. P16=L, P17=L */
+                case 3: P1_bit.no6 = 0; P1_bit.no7 = 1; break; /* 4. P16=L, P17=H */
             }
         }
 
-        /* --- 3. P16(OUT1)の状態監視とP147(ADC)の電圧監視 --- */
+        /* --- 3. 出力状態監視とP147(ADC)の電圧監視 --- */
         
-        /* P16がLからHに立ち上がった瞬間を検知 */
-        if (P1_bit.no6 == 1 && prev_p16 == 0)
+        /* 💡 P16 または P17 のどちらかがHであるかを変数化 */
+        if (P1_bit.no6 == 1 || P1_bit.no7 == 1)
         {
-            g_timer_1ms = 0;       /* タイマクリア */
-            p16_high_duration = 0;
+            current_output_active = 1;
+        }
+        else
+        {
+            current_output_active = 0;
         }
         
-        /* P16がHの間の時間計測 */
-        if (P1_bit.no6 == 1)
+        /* 💡 出力が「両方L」から「どちらかがH」に変化した瞬間を検知 */
+        if (current_output_active == 1 && prev_output_active == 0)
         {
-            p16_high_duration += g_timer_1ms;
+            g_timer_1ms = 0;       /* タイマクリア */
+            monitor_duration = 0;
+        }
+        
+        /* 出力のどちらかがHの間の時間計測 */
+        if (current_output_active == 1)
+        {
+            monitor_duration += g_timer_1ms;
             g_timer_1ms = 0; /* 累積したらクリア */
             
             /* 100ms以降、電圧監視を開始 */
-            if (p16_high_duration >= 100)
+            if (monitor_duration >= 100)
             {
                 adc_val = read_adc_p147();
                 
                 /* 2.0V以上 (10bit ADCで 409以上) */
                 if (adc_val >= 409)
                 {
-                    /* 1. 出力をクリア */
+                    /* 1. 全出力をクリア */
                     P1_bit.no6 = 0; /* P16=L */
                     P1_bit.no7 = 0; /* P17=L */
-                    sw2_state = 0;  /* SW2の状態も初期状態へ */
+                    sw2_state = 0;  /* SW2の状態も初期状態(1)へリセット */
                     
                     /* 2. アラート状態へ移行 */
                     g_system_mode = STATE_ALERT;
@@ -184,14 +197,15 @@ void main(void)
         }
         else
         {
-            p16_high_duration = 0;
+            monitor_duration = 0;
         }
         
-        prev_p16 = P1_bit.no6; /* 次回ループ用に状態保存 */
+        prev_output_active = current_output_active; /* 次回ループ用に状態保存 */
     }
+    /* End user code. Do not edit comment generated here */
 }
-
-/* * SW1(P30) チャタリング防止付きクリック判定関数
+   
+ /* * SW1(P30) チャタリング防止付きクリック判定関数
  * 戻り値: 1=押して離された, 0=変化なし
  */
 unsigned char check_sw1_click(void)

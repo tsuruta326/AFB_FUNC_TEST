@@ -17,25 +17,11 @@
       <TreeImageGuid>f654126d-e7ad-426d-be34-8455271d959b</TreeImageGuid>
       <ParentItem>d25ee5f3-0beb-445b-8a36-47c5d976155c</ParentItem>
     </Instance>
-    <Instance Guid="23d5214b-eec3-44b2-b4bd-6538d4eba0a1">
-      <Name>hdwinit.asm</Name>
-      <Type>File</Type>
-      <RelativePath>hdwinit.asm</RelativePath>
-      <TreeImageGuid>f654126d-e7ad-426d-be34-8455271d959b</TreeImageGuid>
-      <ParentItem>d25ee5f3-0beb-445b-8a36-47c5d976155c</ParentItem>
-    </Instance>
     <Instance Guid="5bb85e0a-6ae3-4241-a446-bdd2c1ecdf46">
       <Name>stkinit.asm</Name>
       <Type>File</Type>
       <RelativePath>stkinit.asm</RelativePath>
       <TreeImageGuid>f654126d-e7ad-426d-be34-8455271d959b</TreeImageGuid>
-      <ParentItem>d25ee5f3-0beb-445b-8a36-47c5d976155c</ParentItem>
-    </Instance>
-    <Instance Guid="cd138e6f-58d5-4ad3-9cb9-e5220fd18ff6">
-      <Name>main.c</Name>
-      <Type>File</Type>
-      <RelativePath>main.c</RelativePath>
-      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
       <ParentItem>d25ee5f3-0beb-445b-8a36-47c5d976155c</ParentItem>
     </Instance>
     <Instance Guid="f4d62f95-bf36-4c30-bf47-0906ce3b0128">
@@ -44,6 +30,144 @@
       <RelativePath>iodefine.h</RelativePath>
       <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
       <ParentItem>d25ee5f3-0beb-445b-8a36-47c5d976155c</ParentItem>
+    </Instance>
+    <Instance Guid="11223023-4161-4ebf-a0ae-decd99bc1c6e">
+      <Name>コード生成</Name>
+      <Type>Category</Type>
+      <ParentItem>d25ee5f3-0beb-445b-8a36-47c5d976155c</ParentItem>
+    </Instance>
+    <Instance Guid="4177c31a-8e31-438c-9241-6a64b8e9758b">
+      <Name>r_main.c</Name>
+      <Type>File</Type>
+      <RelativePath>r_main.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>11223023-4161-4ebf-a0ae-decd99bc1c6e</ParentItem>
+    </Instance>
+    <Instance Guid="57d228de-eedf-4659-a64b-15272d41bc10">
+      <Name>r_systeminit.c</Name>
+      <Type>File</Type>
+      <RelativePath>r_systeminit.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>11223023-4161-4ebf-a0ae-decd99bc1c6e</ParentItem>
+    </Instance>
+    <Instance Guid="c0fa9d2f-44d2-465c-bf0c-9b189c03a528">
+      <Name>r_cg_cgc.c</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_cgc.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>11223023-4161-4ebf-a0ae-decd99bc1c6e</ParentItem>
+    </Instance>
+    <Instance Guid="fa4ec22d-27de-40e8-b538-0506049b81dc">
+      <Name>r_cg_cgc_user.c</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_cgc_user.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>11223023-4161-4ebf-a0ae-decd99bc1c6e</ParentItem>
+    </Instance>
+    <Instance Guid="1ab52af4-adaa-4806-aa04-acf4328c131d">
+      <Name>r_cg_port.c</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_port.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>11223023-4161-4ebf-a0ae-decd99bc1c6e</ParentItem>
+    </Instance>
+    <Instance Guid="ddde8370-5009-49cd-b8e6-d1ed9ae7ec4c">
+      <Name>r_cg_port_user.c</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_port_user.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>11223023-4161-4ebf-a0ae-decd99bc1c6e</ParentItem>
+    </Instance>
+    <Instance Guid="efdfdb9c-ef4a-4ed5-b9ac-5da769b54f69">
+      <Name>r_cg_adc.c</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_adc.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>11223023-4161-4ebf-a0ae-decd99bc1c6e</ParentItem>
+    </Instance>
+    <Instance Guid="15422bff-6d98-4295-930d-a30a17c4636f">
+      <Name>r_cg_adc_user.c</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_adc_user.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>11223023-4161-4ebf-a0ae-decd99bc1c6e</ParentItem>
+    </Instance>
+    <Instance Guid="438c7da3-aa83-4e51-82cf-762f4431b12e">
+      <Name>r_cg_timer.c</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_timer.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>11223023-4161-4ebf-a0ae-decd99bc1c6e</ParentItem>
+    </Instance>
+    <Instance Guid="504ef786-61f5-42a3-8c94-0675e176cf5d">
+      <Name>r_cg_timer_user.c</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_timer_user.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>11223023-4161-4ebf-a0ae-decd99bc1c6e</ParentItem>
+    </Instance>
+    <Instance Guid="deb9b992-ade3-40f5-97f9-576edabf7bcc">
+      <Name>r_cg_wdt.c</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_wdt.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>11223023-4161-4ebf-a0ae-decd99bc1c6e</ParentItem>
+    </Instance>
+    <Instance Guid="940d1498-55ed-4945-826c-918e6448aa3d">
+      <Name>r_cg_wdt_user.c</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_wdt_user.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>11223023-4161-4ebf-a0ae-decd99bc1c6e</ParentItem>
+    </Instance>
+    <Instance Guid="4a98f1f2-fa92-4316-94f4-56194223ae8a">
+      <Name>r_cg_macrodriver.h</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_macrodriver.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>11223023-4161-4ebf-a0ae-decd99bc1c6e</ParentItem>
+    </Instance>
+    <Instance Guid="874a1f20-25fe-44b8-9fe4-530c54f218aa">
+      <Name>r_cg_userdefine.h</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_userdefine.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>11223023-4161-4ebf-a0ae-decd99bc1c6e</ParentItem>
+    </Instance>
+    <Instance Guid="b9c12a40-42e7-46d2-9258-9c5634bdf9fe">
+      <Name>r_cg_cgc.h</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_cgc.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>11223023-4161-4ebf-a0ae-decd99bc1c6e</ParentItem>
+    </Instance>
+    <Instance Guid="fb5a1445-92c7-4270-b671-77eb848849de">
+      <Name>r_cg_port.h</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_port.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>11223023-4161-4ebf-a0ae-decd99bc1c6e</ParentItem>
+    </Instance>
+    <Instance Guid="b7ce9e10-9f34-42a8-b187-4c8a048985be">
+      <Name>r_cg_adc.h</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_adc.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>11223023-4161-4ebf-a0ae-decd99bc1c6e</ParentItem>
+    </Instance>
+    <Instance Guid="18e927e5-0c87-4837-8962-fc9f7f29a516">
+      <Name>r_cg_timer.h</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_timer.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>11223023-4161-4ebf-a0ae-decd99bc1c6e</ParentItem>
+    </Instance>
+    <Instance Guid="e308c041-1b3f-4ddb-8e74-86632cd4f3f0">
+      <Name>r_cg_wdt.h</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_wdt.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>11223023-4161-4ebf-a0ae-decd99bc1c6e</ParentItem>
     </Instance>
   </Class>
   <Class Guid="fb98844b-2c27-4275-9804-f6e63e204da0">
@@ -73,6 +197,12 @@
       <MemoCount>0</MemoCount>
     </Instance>
   </Class>
+  <Class Guid="873c9a58-9bc5-439a-b476-78629a4553ed">
+    <Instance Guid="873c9a58-9bc5-439a-b476-78629a4553ed">
+      <ProjectDeviceChangedCounter>0</ProjectDeviceChangedCounter>
+      <ProjectInitialDeviceName>R5F1007E</ProjectInitialDeviceName>
+    </Instance>
+  </Class>
   <Class Guid="c3835e31-dea3-4c93-b02b-d2db997f7630">
     <Instance Guid="c3835e31-dea3-4c93-b02b-d2db997f7630">
       <BuildToolManager>1159186b-b838-4741-8324-8293bf3d5c5f</BuildToolManager>
@@ -87,13 +217,33 @@
       <CurrentBuildMode>DefaultBuild</CurrentBuildMode>
       <SourceItemGuid0>c9fadd0a-e7d1-4b58-8ebd-e0df84121901</SourceItemGuid0>
       <SourceItemType0>AsmSource</SourceItemType0>
-      <SourceItemGuid1>23d5214b-eec3-44b2-b4bd-6538d4eba0a1</SourceItemGuid1>
+      <SourceItemGuid1>5bb85e0a-6ae3-4241-a446-bdd2c1ecdf46</SourceItemGuid1>
       <SourceItemType1>AsmSource</SourceItemType1>
-      <SourceItemGuid2>5bb85e0a-6ae3-4241-a446-bdd2c1ecdf46</SourceItemGuid2>
-      <SourceItemType2>AsmSource</SourceItemType2>
-      <SourceItemGuid3>cd138e6f-58d5-4ad3-9cb9-e5220fd18ff6</SourceItemGuid3>
+      <SourceItemGuid2>4177c31a-8e31-438c-9241-6a64b8e9758b</SourceItemGuid2>
+      <SourceItemType2>CSource</SourceItemType2>
+      <SourceItemGuid3>57d228de-eedf-4659-a64b-15272d41bc10</SourceItemGuid3>
       <SourceItemType3>CSource</SourceItemType3>
-      <SourceItemCount>4</SourceItemCount>
+      <SourceItemGuid4>c0fa9d2f-44d2-465c-bf0c-9b189c03a528</SourceItemGuid4>
+      <SourceItemType4>CSource</SourceItemType4>
+      <SourceItemGuid5>fa4ec22d-27de-40e8-b538-0506049b81dc</SourceItemGuid5>
+      <SourceItemType5>CSource</SourceItemType5>
+      <SourceItemGuid6>1ab52af4-adaa-4806-aa04-acf4328c131d</SourceItemGuid6>
+      <SourceItemType6>CSource</SourceItemType6>
+      <SourceItemGuid7>ddde8370-5009-49cd-b8e6-d1ed9ae7ec4c</SourceItemGuid7>
+      <SourceItemType7>CSource</SourceItemType7>
+      <SourceItemGuid8>efdfdb9c-ef4a-4ed5-b9ac-5da769b54f69</SourceItemGuid8>
+      <SourceItemType8>CSource</SourceItemType8>
+      <SourceItemGuid9>15422bff-6d98-4295-930d-a30a17c4636f</SourceItemGuid9>
+      <SourceItemType9>CSource</SourceItemType9>
+      <SourceItemGuid10>438c7da3-aa83-4e51-82cf-762f4431b12e</SourceItemGuid10>
+      <SourceItemType10>CSource</SourceItemType10>
+      <SourceItemGuid11>504ef786-61f5-42a3-8c94-0675e176cf5d</SourceItemGuid11>
+      <SourceItemType11>CSource</SourceItemType11>
+      <SourceItemGuid12>deb9b992-ade3-40f5-97f9-576edabf7bcc</SourceItemGuid12>
+      <SourceItemType12>CSource</SourceItemType12>
+      <SourceItemGuid13>940d1498-55ed-4945-826c-918e6448aa3d</SourceItemGuid13>
+      <SourceItemType13>CSource</SourceItemType13>
+      <SourceItemCount>14</SourceItemCount>
       <LastDeviceChangedCounter>0</LastDeviceChangedCounter>
       <LastDeviceNameOnPG>R5F1007E</LastDeviceNameOnPG>
       <LastDeviceChangedCounterOnPG>0</LastDeviceChangedCounterOnPG>
@@ -278,7 +428,7 @@
       <COptionCheckLanguageExtension-DefaultValue>False</COptionCheckLanguageExtension-DefaultValue>
       <COptionMisraIntermodule-DefaultValue>False</COptionMisraIntermodule-DefaultValue>
       <IsLockedByUser>False</IsLockedByUser>
-      <TimeTagModified--0>-8584216599314125232</TimeTagModified--0>
+      <TimeTagModified--0>-8584216592904540541</TimeTagModified--0>
       <COptionAnsi-0>False</COptionAnsi-0>
       <COptionAsmPath-0>False</COptionAsmPath-0>
       <COptionChangeMessageError-0>No</COptionChangeMessageError-0>
@@ -286,7 +436,8 @@
       <COptionConvertCc-0>None</COptionConvertCc-0>
       <COptionDblSize-0>True</COptionDblSize-0>
       <COptionG-0>True</COptionG-0>
-      <COptionI-0 />
+      <COptionI-0>.
+</COptionI-0>
       <COptionLangC-0>None</COptionLangC-0>
       <COptionMOrC-0>-c</COptionMOrC-0>
       <COptionMemoryModel-0>Auto</COptionMemoryModel-0>
@@ -542,7 +693,7 @@
       <LinkOptionRrm-DefaultValue>False</LinkOptionRrm-DefaultValue>
       <LinkOptionRrmValue-DefaultValue />
       <IsLockedByUser>False</IsLockedByUser>
-      <TimeTagModified--0>-8584216599314125232</TimeTagModified--0>
+      <TimeTagModified--0>-8584216592903637087</TimeTagModified--0>
       <LinkOptionAutoSectionLayout-0>True</LinkOptionAutoSectionLayout-0>
       <LinkOptionCpu-0>False</LinkOptionCpu-0>
       <LinkOptionDebug-0>Debug</LinkOptionDebug-0>
@@ -564,7 +715,7 @@
       <LinkOptionMapFileName-0>%ProjectName%.map</LinkOptionMapFileName-0>
       <LinkOptionMemory-0>False</LinkOptionMemory-0>
       <LinkOptionNoMessageErrorNumber-0 />
-      <LinkOptionOcdbgValue-0 />
+      <LinkOptionOcdbgValue-0>04</LinkOptionOcdbgValue-0>
       <LinkOptionOptimizeSymbolDelete-0>False</LinkOptionOptimizeSymbolDelete-0>
       <LinkOptionOutputFileName-0>%ProjectName%.abs</LinkOptionOutputFileName-0>
       <LinkOptionSplitSection-0>False</LinkOptionSplitSection-0>
@@ -620,7 +771,7 @@
       <LinkOptionChangeMessageError-0>None</LinkOptionChangeMessageError-0>
       <LinkOptionSameCodeForbid-0 />
       <LinkOptionShowStruct-0>False</LinkOptionShowStruct-0>
-      <LinkOptionUserOptByteValue-0 />
+      <LinkOptionUserOptByteValue-0>FFF3E8</LinkOptionUserOptByteValue-0>
       <LinkOptionChangeMessageErrorNumber-0 />
       <LinkOptionSectionForbid-0 />
       <LinkOptionSelf-0>None</LinkOptionSelf-0>
@@ -816,7 +967,7 @@
       <LibOptionChangeMessageError-DefaultValue>None</LibOptionChangeMessageError-DefaultValue>
       <LibOptionChangeMessageErrorNumber-DefaultValue />
       <IsLockedByUser>False</IsLockedByUser>
-      <TimeTagModified--0>-8584216599314025039</TimeTagModified--0>
+      <TimeTagModified--0>-8584216592913802843</TimeTagModified--0>
       <LibOptionDebug-0>Debug</LibOptionDebug-0>
       <LibOptionForm-0>LibraryU</LibOptionForm-0>
       <LibOptionInput-0 />
@@ -881,22 +1032,94 @@
     </Instance>
     <Instance Guid="23d5214b-eec3-44b2-b4bd-6538d4eba0a1">
       <LinkOrder-0>1</LinkOrder-0>
-      <ItemAddTime>639155761544817581</ItemAddTime>
-      <ItemAddTimeCount>1</ItemAddTimeCount>
     </Instance>
     <Instance Guid="cd138e6f-58d5-4ad3-9cb9-e5220fd18ff6">
       <LinkOrder-0>2</LinkOrder-0>
-      <ItemAddTime>639155761544817581</ItemAddTime>
-      <ItemAddTimeCount>3</ItemAddTimeCount>
     </Instance>
     <Instance Guid="5bb85e0a-6ae3-4241-a446-bdd2c1ecdf46">
       <LinkOrder-0>3</LinkOrder-0>
       <ItemAddTime>639155761544817581</ItemAddTime>
       <ItemAddTimeCount>2</ItemAddTimeCount>
     </Instance>
+    <Instance Guid="57d228de-eedf-4659-a64b-15272d41bc10">
+      <ItemAddTime>639155767951071814</ItemAddTime>
+      <ItemAddTimeCount>1</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="4177c31a-8e31-438c-9241-6a64b8e9758b">
+      <ItemAddTime>639155767951071814</ItemAddTime>
+      <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
     <Instance Guid="f4d62f95-bf36-4c30-bf47-0906ce3b0128">
       <ItemAddTime>639155761549312712</ItemAddTime>
       <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="c0fa9d2f-44d2-465c-bf0c-9b189c03a528">
+      <ItemAddTime>639155767951071814</ItemAddTime>
+      <ItemAddTimeCount>2</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="fa4ec22d-27de-40e8-b538-0506049b81dc">
+      <ItemAddTime>639155767951071814</ItemAddTime>
+      <ItemAddTimeCount>3</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="1ab52af4-adaa-4806-aa04-acf4328c131d">
+      <ItemAddTime>639155767951071814</ItemAddTime>
+      <ItemAddTimeCount>4</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="ddde8370-5009-49cd-b8e6-d1ed9ae7ec4c">
+      <ItemAddTime>639155767951071814</ItemAddTime>
+      <ItemAddTimeCount>5</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="efdfdb9c-ef4a-4ed5-b9ac-5da769b54f69">
+      <ItemAddTime>639155767951071814</ItemAddTime>
+      <ItemAddTimeCount>6</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="15422bff-6d98-4295-930d-a30a17c4636f">
+      <ItemAddTime>639155767951071814</ItemAddTime>
+      <ItemAddTimeCount>7</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="438c7da3-aa83-4e51-82cf-762f4431b12e">
+      <ItemAddTime>639155767951071814</ItemAddTime>
+      <ItemAddTimeCount>8</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="504ef786-61f5-42a3-8c94-0675e176cf5d">
+      <ItemAddTime>639155767951071814</ItemAddTime>
+      <ItemAddTimeCount>9</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="deb9b992-ade3-40f5-97f9-576edabf7bcc">
+      <ItemAddTime>639155767951071814</ItemAddTime>
+      <ItemAddTimeCount>10</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="940d1498-55ed-4945-826c-918e6448aa3d">
+      <ItemAddTime>639155767951071814</ItemAddTime>
+      <ItemAddTimeCount>11</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="4a98f1f2-fa92-4316-94f4-56194223ae8a">
+      <ItemAddTime>639155767951071814</ItemAddTime>
+      <ItemAddTimeCount>12</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="874a1f20-25fe-44b8-9fe4-530c54f218aa">
+      <ItemAddTime>639155767951071814</ItemAddTime>
+      <ItemAddTimeCount>13</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="b9c12a40-42e7-46d2-9258-9c5634bdf9fe">
+      <ItemAddTime>639155767951071814</ItemAddTime>
+      <ItemAddTimeCount>14</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="fb5a1445-92c7-4270-b671-77eb848849de">
+      <ItemAddTime>639155767951071814</ItemAddTime>
+      <ItemAddTimeCount>15</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="b7ce9e10-9f34-42a8-b187-4c8a048985be">
+      <ItemAddTime>639155767951071814</ItemAddTime>
+      <ItemAddTimeCount>16</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="18e927e5-0c87-4837-8962-fc9f7f29a516">
+      <ItemAddTime>639155767951071814</ItemAddTime>
+      <ItemAddTimeCount>17</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="e308c041-1b3f-4ddb-8e74-86632cd4f3f0">
+      <ItemAddTime>639155767951071814</ItemAddTime>
+      <ItemAddTimeCount>18</ItemAddTimeCount>
     </Instance>
     <Instance Guid="0b7e78c3-aadd-45ee-9f9d-ffac6141eeb2">
       <TimeTagModified-SourceItem0--0>-8584216599309958227</TimeTagModified-SourceItem0--0>
@@ -907,16 +1130,56 @@
       <SourceItem1-IsLockedByUser>False</SourceItem1-IsLockedByUser>
       <SourceItem1-BuildingTarget-0>True</SourceItem1-BuildingTarget-0>
       <SourceItem1-IndividualAssembleOption-0>False</SourceItem1-IndividualAssembleOption-0>
-      <TimeTagModified-SourceItem2--0>-8584216599309958227</TimeTagModified-SourceItem2--0>
-      <SourceItem2-IsLockedByUser>False</SourceItem2-IsLockedByUser>
-      <SourceItem2-BuildingTarget-0>True</SourceItem2-BuildingTarget-0>
-      <SourceItem2-IndividualAssembleOption-0>False</SourceItem2-IndividualAssembleOption-0>
     </Instance>
     <Instance Guid="f782db2c-1c42-4ca1-af6a-53a3a5067217">
-      <TimeTagModified-SourceItem3--0>-8584216599309958227</TimeTagModified-SourceItem3--0>
+      <TimeTagModified-SourceItem2--0>-8584216592903703994</TimeTagModified-SourceItem2--0>
+      <SourceItem2-IsLockedByUser>False</SourceItem2-IsLockedByUser>
+      <SourceItem2-BuildingTarget-0>True</SourceItem2-BuildingTarget-0>
+      <SourceItem2-IndividualCompileOption-0>False</SourceItem2-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem3--0>-8584216592903703994</TimeTagModified-SourceItem3--0>
       <SourceItem3-IsLockedByUser>False</SourceItem3-IsLockedByUser>
       <SourceItem3-BuildingTarget-0>True</SourceItem3-BuildingTarget-0>
       <SourceItem3-IndividualCompileOption-0>False</SourceItem3-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem4--0>-8584216592903703994</TimeTagModified-SourceItem4--0>
+      <SourceItem4-IsLockedByUser>False</SourceItem4-IsLockedByUser>
+      <SourceItem4-BuildingTarget-0>True</SourceItem4-BuildingTarget-0>
+      <SourceItem4-IndividualCompileOption-0>False</SourceItem4-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem5--0>-8584216592903703994</TimeTagModified-SourceItem5--0>
+      <SourceItem5-IsLockedByUser>False</SourceItem5-IsLockedByUser>
+      <SourceItem5-BuildingTarget-0>True</SourceItem5-BuildingTarget-0>
+      <SourceItem5-IndividualCompileOption-0>False</SourceItem5-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem6--0>-8584216592903703994</TimeTagModified-SourceItem6--0>
+      <SourceItem6-IsLockedByUser>False</SourceItem6-IsLockedByUser>
+      <SourceItem6-BuildingTarget-0>True</SourceItem6-BuildingTarget-0>
+      <SourceItem6-IndividualCompileOption-0>False</SourceItem6-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem7--0>-8584216592903703994</TimeTagModified-SourceItem7--0>
+      <SourceItem7-IsLockedByUser>False</SourceItem7-IsLockedByUser>
+      <SourceItem7-BuildingTarget-0>True</SourceItem7-BuildingTarget-0>
+      <SourceItem7-IndividualCompileOption-0>False</SourceItem7-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem8--0>-8584216592903703994</TimeTagModified-SourceItem8--0>
+      <SourceItem8-IsLockedByUser>False</SourceItem8-IsLockedByUser>
+      <SourceItem8-BuildingTarget-0>True</SourceItem8-BuildingTarget-0>
+      <SourceItem8-IndividualCompileOption-0>False</SourceItem8-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem9--0>-8584216592903703994</TimeTagModified-SourceItem9--0>
+      <SourceItem9-IsLockedByUser>False</SourceItem9-IsLockedByUser>
+      <SourceItem9-BuildingTarget-0>True</SourceItem9-BuildingTarget-0>
+      <SourceItem9-IndividualCompileOption-0>False</SourceItem9-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem10--0>-8584216592903703994</TimeTagModified-SourceItem10--0>
+      <SourceItem10-IsLockedByUser>False</SourceItem10-IsLockedByUser>
+      <SourceItem10-BuildingTarget-0>True</SourceItem10-BuildingTarget-0>
+      <SourceItem10-IndividualCompileOption-0>False</SourceItem10-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem11--0>-8584216592903703994</TimeTagModified-SourceItem11--0>
+      <SourceItem11-IsLockedByUser>False</SourceItem11-IsLockedByUser>
+      <SourceItem11-BuildingTarget-0>True</SourceItem11-BuildingTarget-0>
+      <SourceItem11-IndividualCompileOption-0>False</SourceItem11-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem12--0>-8584216592903703994</TimeTagModified-SourceItem12--0>
+      <SourceItem12-IsLockedByUser>False</SourceItem12-IsLockedByUser>
+      <SourceItem12-BuildingTarget-0>True</SourceItem12-BuildingTarget-0>
+      <SourceItem12-IndividualCompileOption-0>False</SourceItem12-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem13--0>-8584216592903703994</TimeTagModified-SourceItem13--0>
+      <SourceItem13-IsLockedByUser>False</SourceItem13-IsLockedByUser>
+      <SourceItem13-BuildingTarget-0>True</SourceItem13-BuildingTarget-0>
+      <SourceItem13-IndividualCompileOption-0>False</SourceItem13-IndividualCompileOption-0>
     </Instance>
   </Class>
   <Class Guid="44fa27c9-0aa0-4297-bd3b-2c5c5bdb8881">
@@ -1011,6 +1274,10 @@
       <DebuggerProperty-HookProperty-HookTransaction-Broke-Length>0</DebuggerProperty-HookProperty-HookTransaction-Broke-Length>
       <DebuggerProperty-HookProperty-HookTransaction-Connected-Length>0</DebuggerProperty-HookProperty-HookTransaction-Connected-Length>
       <DebuggerProperty-HookProperty-HookTransaction-Disconnecting-Length>0</DebuggerProperty-HookProperty-HookTransaction-Disconnecting-Length>
+      <Simulator-EditWave-WindowCount>0</Simulator-EditWave-WindowCount>
+      <Simulator-Panel-WindowCount>0</Simulator-Panel-WindowCount>
+      <Simulator-PrmFile-Contents>AQAAABMAAABzdGRpbwAAAAgAAAAAAAAACAAAAHjd2QCE3tkAsN7ZACCTJHeaZ9qt/v///xje2QCvQB132N3ZANzd2QDU3dkACAAAAOTe2QA4JvIASIOYO5Tf2QABAAAACAAAAEiDmDtIg5g7xN3ZAPDd2QDI3dkAzN3ZANDd2QAAAAAAAgAAAAAAAABYMCt38IL6AAHe2QAZ+NB3AAAAAB11ZPcAUtZ3XN7ZAIxKKlT+////AAAAAAgAAABQ3tkA21HWd2iDmDsJNNJ35N7ZAKBQKlTg3tkAGAAAAFTe2QBc3tkAsskhd2iDmDuE3tkArlAqVEiDmDsBByt1PuzAWwAAAAAAAAAAJwAAAAEAAQABAAAAECcAAAAAAAAA6////wgAAAAwADAAMAAwAAIAAAAuAA==</Simulator-PrmFile-Contents>
+      <Simulator-PrsFile-Contents>W1BhbmVsXQ0KUHVsbFVwIFBpbnM9DQpQdWxsRG93biBQaW5zPQ0KW01haW5dDQpGbGFnPTANClNob3dTdHlsZT0xDQpNaW5Qb3NpdGlvbi1YPS0xDQpNaW5Qb3NpdGlvbi1ZPS0xDQpNYXhQb3NpdGlvbi1YPS0xDQpNYXhQb3NpdGlvbi1ZPS0xDQpOb3JtYWxQb3NpdGlvbi1MZWZ0PTE4Mg0KTm9ybWFsUG9zaXRpb24tVG9wPTE4Mg0KTm9ybWFsUG9zaXRpb24tUmlnaHQ9MTMzNA0KTm9ybWFsUG9zaXRpb24tQm90dG9tPTc2OQ0K</Simulator-PrsFile-Contents>
     </Instance>
   </Class>
   <Class Guid="9f7af90c-526c-4f28-af29-524df208b9e0">
@@ -1334,8 +1601,8 @@
       &lt;/Effect&gt;
     &lt;/RTCLPC&gt;
     &lt;VDD Name="VDD" Text="false" Comment="used" /&gt;
-    &lt;AD_ADPC_USEDPIN Name="AD_ADPC_USEDPIN" Text="false" /&gt;
-    &lt;ADC_ADS_VALUE Name="ADC_ADS_VALUE" Text="false" /&gt;
+    &lt;AD_ADPC_USEDPIN Name="AD_ADPC_USEDPIN" Text="ANI0,ANI1,ANI2," /&gt;
+    &lt;ADC_ADS_VALUE Name="ADC_ADS_VALUE" Text="" /&gt;
     &lt;IIC00 Name="IIC00" Text="false" Comment="unused" Trigger="IIC00"&gt;
       &lt;Effect&gt;
         &lt;PORT Forcible="" /&gt;
@@ -1410,6 +1677,7 @@
     &lt;RAMEndAddress Name="RAMEndAddress" Fixed="" Text="000FFEFF" /&gt;
     &lt;ROMEndAddress Chip="R5F1006E,R5F1007E,R5F1008E,R5F100AE,R5F100BE,R5F100CE,R5F100EE,R5F100FE,R5F100GE,R5F100JE,R5F100LE" Name="ROMEndAddress" Fixed="" Text="0000FFFF" /&gt;
     &lt;MirrorROM Chip="R5F1006E,R5F1007E,R5F1008E,R5F100AE,R5F100BE,R5F100CE,R5F100EE,R5F100FE,R5F100GE,R5F100JE,R5F100LE,R5F1016E,R5F1017E,R5F1018E,R5F101AE,R5F101BE,R5F101CE,R5F101EE,R5F101FE,R5F101GE,R5F101JE,R5F101LE" Name="MirrorROM" Fixed="" Text="51.75" /&gt;
+    &lt;ADPC_AD Name="ADPC_AD" Value="2" /&gt;
     &lt;CodePath Name="CodePath" Text=".\" /&gt;
     &lt;ReportType Name="ReportType" Text="Html" /&gt;
     &lt;CreationDateType Name="CreationDateType" Text="OutputDate" /&gt;
@@ -1427,6 +1695,9 @@
     &lt;HasRRMRam Name="HasRRMRam" Text="" /&gt;
     &lt;PrjVersion Name="PrjVersion" Text="1.2.0.1" /&gt;
     &lt;ProductVersion Name="ProductVersion" Text="4.08.06.01" /&gt;
+    &lt;TO02_PWM Name="TO02_PWM" Text="false" /&gt;
+    &lt;TO03_PWM Name="TO03_PWM" Text="false" /&gt;
+    &lt;LinkFileName Name="LinkFileName" Text="" /&gt;
   &lt;/VAR&gt;
   &lt;DIR&gt;
     &lt;PIN&gt;
@@ -1438,23 +1709,23 @@
       &lt;/CGC&gt;
       &lt;PORT&gt;
         &lt;Port0 Chip="RL78G13_20pin,RL78G13_24pin,RL78G13_25pin,RL78G13_30pin,RL78G13_32pin" DIN="true" Pullup="true"&gt;
-          &lt;P00 Name="P00/ANI17/TI00/TXD1" Nch="true" AltFunc="" Point="I/O" /&gt;
-          &lt;P01 Name="P01/ANI16/TO00/RXD1" TTL="true" AltFunc="" Point="I/O" /&gt;
+          &lt;P00 Name="P00/ANI17/TI00/TXD1" Nch="true" AltFunc="P00" Point="I/O" /&gt;
+          &lt;P01 Name="P01/ANI16/TO00/RXD1" TTL="true" AltFunc="P01" Point="I/O" /&gt;
         &lt;/Port0&gt;
         &lt;Port1 Chip="RL78G13_24pin,RL78G13_25pin" Pullup="true"&gt;
           &lt;P10 Name="P10/_SCK00/SCL00" TTL="true" Nch="true" AltFunc="" Point="I/O" /&gt;
           &lt;P11 Name="P11/SI00/RXD0/TOOLRXD/SDA00" TTL="true" Nch="true" AltFunc="" Point="I/O" /&gt;
           &lt;P12 Name="P12/SO00/TXD0/TOOLTXD" Nch="true" AltFunc="" Point="I/O" /&gt;
-          &lt;P16 Name="P16/TI01/TO01/INTP5" TTL="true" AltFunc="" Point="I/O" /&gt;
-          &lt;P17 TTL="true" Nch="true" Name="P17/TI02/TO02/SO11" AltFunc="" Point="I/O" /&gt;
+          &lt;P16 Name="P16/TI01/TO01/INTP5" TTL="true" AltFunc="P16" Point="I/O" /&gt;
+          &lt;P17 TTL="true" Nch="true" Name="P17/TI02/TO02/SO11" AltFunc="P17" Point="I/O" /&gt;
         &lt;/Port1&gt;
         &lt;Port2 ADIN="true"&gt;
-          &lt;P20 Name="P20/ANI0/AVREFP" AltFunc="" Point="I/O" /&gt;
-          &lt;P21 Name="P21/ANI1/AVREFM" AltFunc="" Point="I/O" /&gt;
-          &lt;P22 Name="P22/ANI2" AltFunc="" Point="I/O" /&gt;
+          &lt;P20 Name="P20/ANI0/AVREFP" AltFunc="ANALOG_0" Point="I/O" /&gt;
+          &lt;P21 Name="P21/ANI1/AVREFM" AltFunc="ANALOG_1" Point="I/O" /&gt;
+          &lt;P22 Name="P22/ANI2" AltFunc="ANALOG_2" Point="I/O" /&gt;
         &lt;/Port2&gt;
         &lt;Port3 Pullup="true"&gt;
-          &lt;P30 Chip="RL78G13_20pin,RL78G13_24pin,RL78G13_25pin,RL78G13_30pin,RL78G13_32pin,RL78G13_36pin" Name="P30/INTP3/_SCK11/SCL11" AltFunc="" Point="I/O" /&gt;
+          &lt;P30 Chip="RL78G13_20pin,RL78G13_24pin,RL78G13_25pin,RL78G13_30pin,RL78G13_32pin,RL78G13_36pin" Name="P30/INTP3/_SCK11/SCL11" AltFunc="P30" Point="I/O" /&gt;
           &lt;P31 Chip="RL78G13_24pin,RL78G13_25pin,RL78G13_30pin,RL78G13_32pin,RL78G13_36pin,RL78G13_40pin,RL78G13_44pin" Name="P31/TI03/TO03/INTP4/PCLBUZ0" AltFunc="" Point="I/O" /&gt;
         &lt;/Port3&gt;
         &lt;Port4 Pullup="true"&gt;
@@ -1469,13 +1740,13 @@
         &lt;/Port6&gt;
         &lt;Port12&gt;
           &lt;P121 Name="P121/X1" AltFunc="" Point="I" /&gt;
-          &lt;P122 Name="P122/X2/EXCLK" AltFunc="" Point="I" /&gt;
+          &lt;P122 Name="P122/X2/EXCLK" AltFunc="P122" Point="I" /&gt;
         &lt;/Port12&gt;
         &lt;Port13&gt;
           &lt;P137 Name="P137/INTP0" AltFunc="" Point="I" /&gt;
         &lt;/Port13&gt;
         &lt;Port14 Pullup="true"&gt;
-          &lt;P147 Name="P147/ANI18" DIN="true" AltFunc="" Point="I/O" /&gt;
+          &lt;P147 Name="P147/ANI18" DIN="true" AltFunc="ANI18" Point="I/O" /&gt;
         &lt;/Port14&gt;
       &lt;/PORT&gt;
       &lt;INTC&gt;
@@ -1624,12 +1895,12 @@
         &lt;/IICA1&gt;
       &lt;/Serial&gt;
       &lt;ADC&gt;
-        &lt;INTAD InUse="0" ISR="r_adc_interrupt" IsDMATrigger="true" /&gt;
+        &lt;INTAD InUse="1" ISR="r_adc_interrupt" IsDMATrigger="true" /&gt;
       &lt;/ADC&gt;
       &lt;TAU&gt;
         &lt;TAU0&gt;
           &lt;Channel0&gt;
-            &lt;INTTM00 InUse="0" ISR="r_tau0_channel0_interrupt" /&gt;
+            &lt;INTTM00 InUse="1" ISR="r_tau0_channel0_interrupt" /&gt;
           &lt;/Channel0&gt;
           &lt;Channel1&gt;
             &lt;INTTM01 InUse="0" ISR="r_tau0_channel1_interrupt" /&gt;
@@ -1777,15 +2048,15 @@
         &lt;r_cg_pfdl.h UserName="r_cg_pfdl.h" LibName="_pfdl.h" InUse="0" /&gt;
       &lt;/CGC&gt;
       &lt;PORT&gt;
-        &lt;r_cg_port.c UserName="r_cg_port.c" LibName=".c"&gt;
+        &lt;r_cg_port.c UserName="r_cg_port.c" LibName=".c" InUse="1"&gt;
           &lt;Type R_PORT_Create="void R_PORT_Create(void)" /&gt;
-          &lt;R_PORT_Create UserName="R_PORT_Create" LibName="R_PORT_Create" Init="1" InitMode="" /&gt;
+          &lt;R_PORT_Create UserName="R_PORT_Create" LibName="R_PORT_Create" Init="1" InitMode="" InUse="1" /&gt;
         &lt;/r_cg_port.c&gt;
-        &lt;r_cg_port_user.c UserName="r_cg_port_user.c" LibName="_user.c"&gt;
+        &lt;r_cg_port_user.c UserName="r_cg_port_user.c" LibName="_user.c" InUse="1"&gt;
           &lt;Type R_PORT_Create_UserInit="void R_PORT_Create_UserInit(void)" /&gt;
-          &lt;R_PORT_Create_UserInit UserName="R_PORT_Create_UserInit" LibName="R_PORT_Create_UserInit" /&gt;
+          &lt;R_PORT_Create_UserInit UserName="R_PORT_Create_UserInit" LibName="R_PORT_Create_UserInit" InUse="0" /&gt;
         &lt;/r_cg_port_user.c&gt;
-        &lt;r_cg_port.h UserName="r_cg_port.h" LibName=".h" /&gt;
+        &lt;r_cg_port.h UserName="r_cg_port.h" LibName=".h" InUse="1" /&gt;
       &lt;/PORT&gt;
       &lt;INTC&gt;
         &lt;r_cg_intc.c UserName="r_cg_intc.c" LibName=".c" InUse=""&gt;
@@ -1957,116 +2228,116 @@
         &lt;r_cg_serial.h UserName="r_cg_serial.h" LibName=".h" InUse="" /&gt;
       &lt;/Serial&gt;
       &lt;ADC&gt;
-        &lt;r_cg_adc.c UserName="r_cg_adc.c" LibName=".c" InUse=""&gt;
+        &lt;r_cg_adc.c UserName="r_cg_adc.c" LibName=".c" InUse="1"&gt;
           &lt;Type R_ADC_Create="void R_ADC_Create(void)" R_ADC_Start="void R_ADC_Start(void)" R_ADC_Stop="void R_ADC_Stop(void)" R_ADC_Set_OperationOn="void R_ADC_Set_OperationOn(void)" R_ADC_Set_OperationOff="void R_ADC_Set_OperationOff(void)" R_ADC_Get_Result="void R_ADC_Get_Result(uint16_t * const buffer)" R_ADC_Get_Result_8bit="void R_ADC_Get_Result_8bit(uint8_t * const buffer)" R_ADC_Set_ADChannel="MD_STATUS R_ADC_Set_ADChannel(ad_channel_t channel)" R_ADC_Set_SnoozeOn="void R_ADC_Set_SnoozeOn(void)" R_ADC_Set_SnoozeOff="void R_ADC_Set_SnoozeOff(void)" R_ADC_Set_TestChannel="MD_STATUS R_ADC_Set_TestChannel(test_channel_t channel)" R_ADC_Set_PowerOff="void R_ADC_Set_PowerOff(void)" /&gt;
-          &lt;R_ADC_Create UserName="R_ADC_Create" LibName="R_ADC_Create" InUse="" Init="1" InitMode="" /&gt;
-          &lt;R_ADC_Start UserName="R_ADC_Start" LibName="R_ADC_Start" InUse="" /&gt;
-          &lt;R_ADC_Stop UserName="R_ADC_Stop" LibName="R_ADC_Stop" InUse="" /&gt;
-          &lt;R_ADC_Set_OperationOn UserName="R_ADC_Set_OperationOn" LibName="R_ADC_Set_OperationOn" InUse="" /&gt;
-          &lt;R_ADC_Set_OperationOff UserName="R_ADC_Set_OperationOff" LibName="R_ADC_Set_OperationOff" InUse="" /&gt;
-          &lt;R_ADC_Get_Result UserName="R_ADC_Get_Result" LibName="R_ADC_Get_Result" InUse="" /&gt;
-          &lt;R_ADC_Get_Result_8bit UserName="R_ADC_Get_Result_8bit" LibName="R_ADC_Get_Result_8bit" InUse="" /&gt;
-          &lt;R_ADC_Set_ADChannel UserName="R_ADC_Set_ADChannel" LibName="R_ADC_Set_ADChannel" InUse="" /&gt;
-          &lt;R_ADC_Set_SnoozeOn UserName="R_ADC_Set_SnoozeOn" LibName="R_ADC_Set_SnoozeOn" InUse="" /&gt;
-          &lt;R_ADC_Set_SnoozeOff UserName="R_ADC_Set_SnoozeOff" LibName="R_ADC_Set_SnoozeOff" InUse="" /&gt;
-          &lt;R_ADC_Set_TestChannel UserName="R_ADC_Set_TestChannel" LibName="R_ADC_Set_TestChannel" InUse="" /&gt;
-          &lt;R_ADC_Set_PowerOff UserName="R_ADC_Set_PowerOff" LibName="R_ADC_Set_PowerOff" InUse="" /&gt;
+          &lt;R_ADC_Create UserName="R_ADC_Create" LibName="R_ADC_Create" InUse="1" Init="1" InitMode="" /&gt;
+          &lt;R_ADC_Start UserName="R_ADC_Start" LibName="R_ADC_Start" InUse="1" /&gt;
+          &lt;R_ADC_Stop UserName="R_ADC_Stop" LibName="R_ADC_Stop" InUse="1" /&gt;
+          &lt;R_ADC_Set_OperationOn UserName="R_ADC_Set_OperationOn" LibName="R_ADC_Set_OperationOn" InUse="1" /&gt;
+          &lt;R_ADC_Set_OperationOff UserName="R_ADC_Set_OperationOff" LibName="R_ADC_Set_OperationOff" InUse="1" /&gt;
+          &lt;R_ADC_Get_Result UserName="R_ADC_Get_Result" LibName="R_ADC_Get_Result" InUse="1" /&gt;
+          &lt;R_ADC_Get_Result_8bit UserName="R_ADC_Get_Result_8bit" LibName="R_ADC_Get_Result_8bit" InUse="0" /&gt;
+          &lt;R_ADC_Set_ADChannel UserName="R_ADC_Set_ADChannel" LibName="R_ADC_Set_ADChannel" InUse="0" /&gt;
+          &lt;R_ADC_Set_SnoozeOn UserName="R_ADC_Set_SnoozeOn" LibName="R_ADC_Set_SnoozeOn" InUse="0" /&gt;
+          &lt;R_ADC_Set_SnoozeOff UserName="R_ADC_Set_SnoozeOff" LibName="R_ADC_Set_SnoozeOff" InUse="0" /&gt;
+          &lt;R_ADC_Set_TestChannel UserName="R_ADC_Set_TestChannel" LibName="R_ADC_Set_TestChannel" InUse="0" /&gt;
+          &lt;R_ADC_Set_PowerOff UserName="R_ADC_Set_PowerOff" LibName="R_ADC_Set_PowerOff" InUse="0" /&gt;
         &lt;/r_cg_adc.c&gt;
-        &lt;r_cg_adc_user.c UserName="r_cg_adc_user.c" LibName="_user.c" InUse=""&gt;
+        &lt;r_cg_adc_user.c UserName="r_cg_adc_user.c" LibName="_user.c" InUse="1"&gt;
           &lt;Type R_ADC_Create_UserInit="void R_ADC_Create_UserInit(void)" r_adc_interrupt="__interrupt static void r_adc_interrupt(void)" /&gt;
-          &lt;R_ADC_Create_UserInit UserName="R_ADC_Create_UserInit" LibName="R_ADC_Create_UserInit" InUse="" /&gt;
-          &lt;r_adc_interrupt UserName="r_adc_interrupt" INTHandle="" LibName="r_adc_interrupt" InUse="" /&gt;
+          &lt;R_ADC_Create_UserInit UserName="R_ADC_Create_UserInit" LibName="R_ADC_Create_UserInit" InUse="0" /&gt;
+          &lt;r_adc_interrupt UserName="r_adc_interrupt" INTHandle="" LibName="r_adc_interrupt" InUse="1" /&gt;
         &lt;/r_cg_adc_user.c&gt;
-        &lt;r_cg_adc.h UserName="r_cg_adc.h" LibName=".h" InUse="" /&gt;
+        &lt;r_cg_adc.h UserName="r_cg_adc.h" LibName=".h" InUse="1" /&gt;
       &lt;/ADC&gt;
       &lt;TAU&gt;
-        &lt;r_cg_timer.c UserName="r_cg_timer.c" LibName=".c" InUse=""&gt;
+        &lt;r_cg_timer.c UserName="r_cg_timer.c" LibName=".c" InUse="1"&gt;
           &lt;Type R_TAU_Create="void R_TAU_Create(void)" R_TAU_Set_PowerOff="void R_TAU_Set_PowerOff(void)" R_TAU_Channeln_Start="void R_TAU_Channeln_Start(void)" R_TAU_Channeln_Higher8bits_Start="void R_TAU_Channeln_Higher8bits_Start(void)" R_TAU_Channeln_Lower8bits_Start="void R_TAU_Channeln_Lower8bits_Start(void)" R_TAU_Channeln_Stop="void R_TAU_Channeln_Stop(void)" R_TAU_Channeln_Higher8bits_Stop="void R_TAU_Channeln_Higher8bits_Stop(void)" R_TAU_Channeln_Lower8bits_Stop="void R_TAU_Channeln_Lower8bits_Stop(void)" R_TAU_Channeln_Get_PulseWidth="void R_TAU_Channeln_Get_PulseWidth(uint32_t * const width)" R_TAU_Channeln_Set_SoftwareTriggerOn="void R_TAU_Channeln_Set_SoftwareTriggerOn(void)" /&gt;
           &lt;TAU0&gt;
-            &lt;R_TAU0_Create UserName="R_TAU0_Create" LibName="R_TAU_Create" InUse="" Init="1" InitMode="" /&gt;
-            &lt;R_TAU0_Set_PowerOff UserName="R_TAU0_Set_PowerOff" LibName="R_TAU_Set_PowerOff" InUse="" /&gt;
+            &lt;R_TAU0_Create UserName="R_TAU0_Create" LibName="R_TAU_Create" InUse="1" Init="1" InitMode="" /&gt;
+            &lt;R_TAU0_Set_PowerOff UserName="R_TAU0_Set_PowerOff" LibName="R_TAU_Set_PowerOff" InUse="0" /&gt;
             &lt;Channel0 InUse=""&gt;
-              &lt;R_TAU0_Channel0_Start UserName="R_TAU0_Channel0_Start" LibName="R_TAU_Channeln_Start" InUse="" /&gt;
-              &lt;R_TAU0_Channel0_Stop UserName="R_TAU0_Channel0_Stop" LibName="R_TAU_Channeln_Stop" InUse="" /&gt;
-              &lt;R_TAU0_Channel0_Get_PulseWidth UserName="R_TAU0_Channel0_Get_PulseWidth" LibName="R_TAU_Channeln_Get_PulseWidth" InUse="" /&gt;
-              &lt;R_TAU0_Channel0_Set_SoftwareTriggerOn UserName="R_TAU0_Channel0_Set_SoftwareTriggerOn" LibName="R_TAU_Channeln_Set_SoftwareTriggerOn" InUse="" /&gt;
+              &lt;R_TAU0_Channel0_Start UserName="R_TAU0_Channel0_Start" LibName="R_TAU_Channeln_Start" InUse="1" /&gt;
+              &lt;R_TAU0_Channel0_Stop UserName="R_TAU0_Channel0_Stop" LibName="R_TAU_Channeln_Stop" InUse="1" /&gt;
+              &lt;R_TAU0_Channel0_Get_PulseWidth UserName="R_TAU0_Channel0_Get_PulseWidth" LibName="R_TAU_Channeln_Get_PulseWidth" InUse="0" /&gt;
+              &lt;R_TAU0_Channel0_Set_SoftwareTriggerOn UserName="R_TAU0_Channel0_Set_SoftwareTriggerOn" LibName="R_TAU_Channeln_Set_SoftwareTriggerOn" InUse="0" /&gt;
             &lt;/Channel0&gt;
             &lt;Channel1 InUse=""&gt;
-              &lt;R_TAU0_Channel1_Start UserName="R_TAU0_Channel1_Start" LibName="R_TAU_Channeln_Start" InUse="" /&gt;
-              &lt;R_TAU0_Channel1_Higher8bits_Start UserName="R_TAU0_Channel1_Higher8bits_Start" LibName="R_TAU_Channeln_Higher8bits_Start" InUse="" /&gt;
-              &lt;R_TAU0_Channel1_Lower8bits_Start UserName="R_TAU0_Channel1_Lower8bits_Start" LibName="R_TAU_Channeln_Lower8bits_Start" InUse="" /&gt;
-              &lt;R_TAU0_Channel1_Stop UserName="R_TAU0_Channel1_Stop" LibName="R_TAU_Channeln_Stop" InUse="" /&gt;
-              &lt;R_TAU0_Channel1_Higher8bits_Stop UserName="R_TAU0_Channel1_Higher8bits_Stop" LibName="R_TAU_Channeln_Higher8bits_Stop" InUse="" /&gt;
-              &lt;R_TAU0_Channel1_Lower8bits_Stop UserName="R_TAU0_Channel1_Lower8bits_Stop" LibName="R_TAU_Channeln_Lower8bits_Stop" InUse="" /&gt;
-              &lt;R_TAU0_Channel1_Get_PulseWidth UserName="R_TAU0_Channel1_Get_PulseWidth" LibName="R_TAU_Channeln_Get_PulseWidth" InUse="" /&gt;
+              &lt;R_TAU0_Channel1_Start UserName="R_TAU0_Channel1_Start" LibName="R_TAU_Channeln_Start" InUse="0" /&gt;
+              &lt;R_TAU0_Channel1_Higher8bits_Start UserName="R_TAU0_Channel1_Higher8bits_Start" LibName="R_TAU_Channeln_Higher8bits_Start" InUse="0" /&gt;
+              &lt;R_TAU0_Channel1_Lower8bits_Start UserName="R_TAU0_Channel1_Lower8bits_Start" LibName="R_TAU_Channeln_Lower8bits_Start" InUse="0" /&gt;
+              &lt;R_TAU0_Channel1_Stop UserName="R_TAU0_Channel1_Stop" LibName="R_TAU_Channeln_Stop" InUse="0" /&gt;
+              &lt;R_TAU0_Channel1_Higher8bits_Stop UserName="R_TAU0_Channel1_Higher8bits_Stop" LibName="R_TAU_Channeln_Higher8bits_Stop" InUse="0" /&gt;
+              &lt;R_TAU0_Channel1_Lower8bits_Stop UserName="R_TAU0_Channel1_Lower8bits_Stop" LibName="R_TAU_Channeln_Lower8bits_Stop" InUse="0" /&gt;
+              &lt;R_TAU0_Channel1_Get_PulseWidth UserName="R_TAU0_Channel1_Get_PulseWidth" LibName="R_TAU_Channeln_Get_PulseWidth" InUse="0" /&gt;
             &lt;/Channel1&gt;
             &lt;Channel2 InUse=""&gt;
-              &lt;R_TAU0_Channel2_Start UserName="R_TAU0_Channel2_Start" LibName="R_TAU_Channeln_Start" InUse="" /&gt;
-              &lt;R_TAU0_Channel2_Stop UserName="R_TAU0_Channel2_Stop" LibName="R_TAU_Channeln_Stop" InUse="" /&gt;
-              &lt;R_TAU0_Channel2_Get_PulseWidth UserName="R_TAU0_Channel2_Get_PulseWidth" LibName="R_TAU_Channeln_Get_PulseWidth" InUse="" /&gt;
-              &lt;R_TAU0_Channel2_Set_SoftwareTriggerOn Chip="RL78G13_24pin,RL78G13_25pin,RL78G13_30pin,RL78G13_32pin,RL78G13_36pin,RL78G13_40pin,RL78G13_44pin,RL78G13_48pin,RL78G13_52pin,RL78G13_64pin,RL78G13_80pin,RL78G13_100pin,RL78G13_128pin" UserName="R_TAU0_Channel2_Set_SoftwareTriggerOn" LibName="R_TAU_Channeln_Set_SoftwareTriggerOn" InUse="" /&gt;
+              &lt;R_TAU0_Channel2_Start UserName="R_TAU0_Channel2_Start" LibName="R_TAU_Channeln_Start" InUse="0" /&gt;
+              &lt;R_TAU0_Channel2_Stop UserName="R_TAU0_Channel2_Stop" LibName="R_TAU_Channeln_Stop" InUse="0" /&gt;
+              &lt;R_TAU0_Channel2_Get_PulseWidth UserName="R_TAU0_Channel2_Get_PulseWidth" LibName="R_TAU_Channeln_Get_PulseWidth" InUse="0" /&gt;
+              &lt;R_TAU0_Channel2_Set_SoftwareTriggerOn Chip="RL78G13_24pin,RL78G13_25pin,RL78G13_30pin,RL78G13_32pin,RL78G13_36pin,RL78G13_40pin,RL78G13_44pin,RL78G13_48pin,RL78G13_52pin,RL78G13_64pin,RL78G13_80pin,RL78G13_100pin,RL78G13_128pin" UserName="R_TAU0_Channel2_Set_SoftwareTriggerOn" LibName="R_TAU_Channeln_Set_SoftwareTriggerOn" InUse="0" /&gt;
             &lt;/Channel2&gt;
             &lt;Channel3 InUse=""&gt;
-              &lt;R_TAU0_Channel3_Start UserName="R_TAU0_Channel3_Start" LibName="R_TAU_Channeln_Start" InUse="" /&gt;
-              &lt;R_TAU0_Channel3_Higher8bits_Start UserName="R_TAU0_Channel3_Higher8bits_Start" LibName="R_TAU_Channeln_Higher8bits_Start" InUse="" /&gt;
-              &lt;R_TAU0_Channel3_Lower8bits_Start UserName="R_TAU0_Channel3_Lower8bits_Start" LibName="R_TAU_Channeln_Lower8bits_Start" InUse="" /&gt;
-              &lt;R_TAU0_Channel3_Stop UserName="R_TAU0_Channel3_Stop" LibName="R_TAU_Channeln_Stop" InUse="" /&gt;
-              &lt;R_TAU0_Channel3_Higher8bits_Stop UserName="R_TAU0_Channel3_Higher8bits_Stop" LibName="R_TAU_Channeln_Higher8bits_Stop" InUse="" /&gt;
-              &lt;R_TAU0_Channel3_Lower8bits_Stop UserName="R_TAU0_Channel3_Lower8bits_Stop" LibName="R_TAU_Channeln_Lower8bits_Stop" InUse="" /&gt;
-              &lt;R_TAU0_Channel3_Get_PulseWidth Chip="RL78G13_24pin,RL78G13_25pin,RL78G13_30pin,RL78G13_32pin,RL78G13_36pin,RL78G13_40pin,RL78G13_44pin,RL78G13_48pin,RL78G13_52pin,RL78G13_64pin,RL78G13_80pin,RL78G13_100pin,RL78G13_128pin" UserName="R_TAU0_Channel3_Get_PulseWidth" LibName="R_TAU_Channeln_Get_PulseWidth" InUse="" /&gt;
+              &lt;R_TAU0_Channel3_Start UserName="R_TAU0_Channel3_Start" LibName="R_TAU_Channeln_Start" InUse="0" /&gt;
+              &lt;R_TAU0_Channel3_Higher8bits_Start UserName="R_TAU0_Channel3_Higher8bits_Start" LibName="R_TAU_Channeln_Higher8bits_Start" InUse="0" /&gt;
+              &lt;R_TAU0_Channel3_Lower8bits_Start UserName="R_TAU0_Channel3_Lower8bits_Start" LibName="R_TAU_Channeln_Lower8bits_Start" InUse="0" /&gt;
+              &lt;R_TAU0_Channel3_Stop UserName="R_TAU0_Channel3_Stop" LibName="R_TAU_Channeln_Stop" InUse="0" /&gt;
+              &lt;R_TAU0_Channel3_Higher8bits_Stop UserName="R_TAU0_Channel3_Higher8bits_Stop" LibName="R_TAU_Channeln_Higher8bits_Stop" InUse="0" /&gt;
+              &lt;R_TAU0_Channel3_Lower8bits_Stop UserName="R_TAU0_Channel3_Lower8bits_Stop" LibName="R_TAU_Channeln_Lower8bits_Stop" InUse="0" /&gt;
+              &lt;R_TAU0_Channel3_Get_PulseWidth Chip="RL78G13_24pin,RL78G13_25pin,RL78G13_30pin,RL78G13_32pin,RL78G13_36pin,RL78G13_40pin,RL78G13_44pin,RL78G13_48pin,RL78G13_52pin,RL78G13_64pin,RL78G13_80pin,RL78G13_100pin,RL78G13_128pin" UserName="R_TAU0_Channel3_Get_PulseWidth" LibName="R_TAU_Channeln_Get_PulseWidth" InUse="0" /&gt;
             &lt;/Channel3&gt;
             &lt;Channel4 PIOR0="0" InUse=""&gt;
-              &lt;R_TAU0_Channel4_Start UserName="R_TAU0_Channel4_Start" LibName="R_TAU_Channeln_Start" InUse="" /&gt;
-              &lt;R_TAU0_Channel4_Stop UserName="R_TAU0_Channel4_Stop" LibName="R_TAU_Channeln_Stop" InUse="" /&gt;
+              &lt;R_TAU0_Channel4_Start UserName="R_TAU0_Channel4_Start" LibName="R_TAU_Channeln_Start" InUse="0" /&gt;
+              &lt;R_TAU0_Channel4_Stop UserName="R_TAU0_Channel4_Stop" LibName="R_TAU_Channeln_Stop" InUse="0" /&gt;
             &lt;/Channel4&gt;
             &lt;Channel5 PIOR0="0" InUse=""&gt;
-              &lt;R_TAU0_Channel5_Start UserName="R_TAU0_Channel5_Start" LibName="R_TAU_Channeln_Start" InUse="" /&gt;
-              &lt;R_TAU0_Channel5_Stop UserName="R_TAU0_Channel5_Stop" LibName="R_TAU_Channeln_Stop" InUse="" /&gt;
-              &lt;R_TAU0_Channel5_Get_PulseWidth UserName="R_TAU0_Channel5_Get_PulseWidth" LibName="R_TAU_Channeln_Get_PulseWidth" InUse="" /&gt;
+              &lt;R_TAU0_Channel5_Start UserName="R_TAU0_Channel5_Start" LibName="R_TAU_Channeln_Start" InUse="0" /&gt;
+              &lt;R_TAU0_Channel5_Stop UserName="R_TAU0_Channel5_Stop" LibName="R_TAU_Channeln_Stop" InUse="0" /&gt;
+              &lt;R_TAU0_Channel5_Get_PulseWidth UserName="R_TAU0_Channel5_Get_PulseWidth" LibName="R_TAU_Channeln_Get_PulseWidth" InUse="0" /&gt;
             &lt;/Channel5&gt;
             &lt;Channel6 PIOR0="0" InUse=""&gt;
-              &lt;R_TAU0_Channel6_Start UserName="R_TAU0_Channel6_Start" LibName="R_TAU_Channeln_Start" InUse="" /&gt;
-              &lt;R_TAU0_Channel6_Stop UserName="R_TAU0_Channel6_Stop" LibName="R_TAU_Channeln_Stop" InUse="" /&gt;
+              &lt;R_TAU0_Channel6_Start UserName="R_TAU0_Channel6_Start" LibName="R_TAU_Channeln_Start" InUse="0" /&gt;
+              &lt;R_TAU0_Channel6_Stop UserName="R_TAU0_Channel6_Stop" LibName="R_TAU_Channeln_Stop" InUse="0" /&gt;
             &lt;/Channel6&gt;
             &lt;Channel7 PIOR0="0" InUse=""&gt;
-              &lt;R_TAU0_Channel7_Start UserName="R_TAU0_Channel7_Start" LibName="R_TAU_Channeln_Start" InUse="" /&gt;
-              &lt;R_TAU0_Channel7_Stop UserName="R_TAU0_Channel7_Stop" LibName="R_TAU_Channeln_Stop" InUse="" /&gt;
+              &lt;R_TAU0_Channel7_Start UserName="R_TAU0_Channel7_Start" LibName="R_TAU_Channeln_Start" InUse="0" /&gt;
+              &lt;R_TAU0_Channel7_Stop UserName="R_TAU0_Channel7_Stop" LibName="R_TAU_Channeln_Stop" InUse="0" /&gt;
             &lt;/Channel7&gt;
           &lt;/TAU0&gt;
         &lt;/r_cg_timer.c&gt;
-        &lt;r_cg_timer_user.c UserName="r_cg_timer_user.c" LibName="_user.c" InUse=""&gt;
+        &lt;r_cg_timer_user.c UserName="r_cg_timer_user.c" LibName="_user.c" InUse="1"&gt;
           &lt;Type R_TAU_Create_UserInit="void R_TAUn_Create_UserInit(void)" r_tau_channeln_interrupt="__interrupt static void r_tau_channeln_interrupt(void)" r_tau_channeln_higher8bits_interrupt="__interrupt static void r_tau_channeln_higher8bits_interrupt(void)" /&gt;
           &lt;TAU0&gt;
-            &lt;R_TAU0_Create_UserInit UserName="R_TAU0_Create_UserInit" LibName="R_TAU_Create_UserInit" InUse="" /&gt;
+            &lt;R_TAU0_Create_UserInit UserName="R_TAU0_Create_UserInit" LibName="R_TAU_Create_UserInit" InUse="0" /&gt;
             &lt;Channel0 InUse=""&gt;
-              &lt;r_tau0_channel0_interrupt UserName="r_tau0_channel0_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="" /&gt;
+              &lt;r_tau0_channel0_interrupt UserName="r_tau0_channel0_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="1" /&gt;
             &lt;/Channel0&gt;
             &lt;Channel1 InUse=""&gt;
-              &lt;r_tau0_channel1_interrupt UserName="r_tau0_channel1_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="" /&gt;
-              &lt;r_tau0_channel1_higher8bits_interrupt UserName="r_tau0_channel1_higher8bits_interrupt" INTHandle="" LibName="r_tau_channeln_higher8bits_interrupt" InUse="" /&gt;
+              &lt;r_tau0_channel1_interrupt UserName="r_tau0_channel1_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="0" /&gt;
+              &lt;r_tau0_channel1_higher8bits_interrupt UserName="r_tau0_channel1_higher8bits_interrupt" INTHandle="" LibName="r_tau_channeln_higher8bits_interrupt" InUse="0" /&gt;
             &lt;/Channel1&gt;
             &lt;Channel2 InUse=""&gt;
-              &lt;r_tau0_channel2_interrupt UserName="r_tau0_channel2_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="" /&gt;
+              &lt;r_tau0_channel2_interrupt UserName="r_tau0_channel2_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="0" /&gt;
             &lt;/Channel2&gt;
             &lt;Channel3 InUse=""&gt;
-              &lt;r_tau0_channel3_interrupt UserName="r_tau0_channel3_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="" /&gt;
-              &lt;r_tau0_channel3_higher8bits_interrupt UserName="r_tau0_channel3_higher8bits_interrupt" INTHandle="" LibName="r_tau_channeln_higher8bits_interrupt" InUse="" /&gt;
+              &lt;r_tau0_channel3_interrupt UserName="r_tau0_channel3_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="0" /&gt;
+              &lt;r_tau0_channel3_higher8bits_interrupt UserName="r_tau0_channel3_higher8bits_interrupt" INTHandle="" LibName="r_tau_channeln_higher8bits_interrupt" InUse="0" /&gt;
             &lt;/Channel3&gt;
             &lt;Channel4 InUse=""&gt;
-              &lt;r_tau0_channel4_interrupt UserName="r_tau0_channel4_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="" /&gt;
+              &lt;r_tau0_channel4_interrupt UserName="r_tau0_channel4_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="0" /&gt;
             &lt;/Channel4&gt;
             &lt;Channel5 InUse=""&gt;
-              &lt;r_tau0_channel5_interrupt UserName="r_tau0_channel5_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="" /&gt;
+              &lt;r_tau0_channel5_interrupt UserName="r_tau0_channel5_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="0" /&gt;
             &lt;/Channel5&gt;
             &lt;Channel6 InUse=""&gt;
-              &lt;r_tau0_channel6_interrupt UserName="r_tau0_channel6_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="" /&gt;
+              &lt;r_tau0_channel6_interrupt UserName="r_tau0_channel6_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="0" /&gt;
             &lt;/Channel6&gt;
             &lt;Channel7 InUse=""&gt;
-              &lt;r_tau0_channel7_interrupt UserName="r_tau0_channel7_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="" /&gt;
+              &lt;r_tau0_channel7_interrupt UserName="r_tau0_channel7_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="0" /&gt;
             &lt;/Channel7&gt;
           &lt;/TAU0&gt;
         &lt;/r_cg_timer_user.c&gt;
-        &lt;r_cg_timer.h UserName="r_cg_timer.h" LibName=".h" InUse="" /&gt;
+        &lt;r_cg_timer.h UserName="r_cg_timer.h" LibName=".h" InUse="1" /&gt;
       &lt;/TAU&gt;
       &lt;WDT&gt;
         &lt;r_cg_wdt.c UserName="r_cg_wdt.c" LibName=".c" InUse="1"&gt;
@@ -2076,7 +2347,7 @@
         &lt;/r_cg_wdt.c&gt;
         &lt;r_cg_wdt_user.c UserName="r_cg_wdt_user.c" LibName="_user.c" InUse="1"&gt;
           &lt;Type R_WDT_Create_UserInit="void R_WDT_Create_UserInit(void)" r_wdt_interrupt="__interrupt static void r_wdt_interrupt(void)" /&gt;
-          &lt;R_WDT_Create_UserInit UserName="R_WDT_Create_UserInit" LibName="R_WDT_Create_UserInit" InUse="" /&gt;
+          &lt;R_WDT_Create_UserInit UserName="R_WDT_Create_UserInit" LibName="R_WDT_Create_UserInit" InUse="0" /&gt;
           &lt;r_wdt_interrupt UserName="r_wdt_interrupt" INTHandle="" LibName="r_wdt_interrupt" InUse="1" /&gt;
         &lt;/r_cg_wdt_user.c&gt;
         &lt;r_cg_wdt.h UserName="r_cg_wdt.h" LibName=".h" InUse="1" /&gt;
@@ -2184,14 +2455,14 @@
         &lt;cg_security0 Name="cg_security0" Value="00" /&gt;
         &lt;cg_security1 Name="cg_security1" Value="00" /&gt;
         &lt;clock_option Name="clock_option" Value="E8" /&gt;
-        &lt;cg_security2 Name="cg_security2" Value="00" /&gt;
+        &lt;lvi_option Name="lvi_option" Value="F3" /&gt;
         &lt;cg_option Name="cg_option" Value="04" /&gt;
         &lt;cg_security8 Name="cg_security8" Value="00" /&gt;
         &lt;cg_security6 Name="cg_security6" Value="00" /&gt;
         &lt;ocdstart Name="ocdstart" Value="0FE00" /&gt;
-        &lt;cg_security4 Name="cg_security4" Value="00" /&gt;
+        &lt;cg_security2 Name="cg_security2" Value="00" /&gt;
         &lt;cg_iawctl_value Name="cg_iawctl_value" Value="00" /&gt;
-        &lt;lvi_option Name="lvi_option" Value="F3" /&gt;
+        &lt;cg_security4 Name="cg_security4" Value="00" /&gt;
         &lt;wdt_option Name="wdt_option" Value="FF" /&gt;
       &lt;/GlobleUserTag&gt;
     &lt;/TAG&gt;
@@ -2200,8 +2471,8 @@
     &lt;CGC Prepared="true" SetFlag="True" NeedRefresh="False"&gt;
       &lt;CGC SetFlag="True" MacroName="cgc" /&gt;
     &lt;/CGC&gt;
-    &lt;PORT HelpID="port" Prepared="true" SetFlag="" NeedRefresh="False"&gt;
-      &lt;PORT SetFlag="" MacroName="PORT" /&gt;
+    &lt;PORT HelpID="port" Prepared="true" SetFlag="True" NeedRefresh="False"&gt;
+      &lt;PORT SetFlag="True" MacroName="PORT" /&gt;
     &lt;/PORT&gt;
     &lt;INTC SetFlag="" HelpID="int" NeedRefresh="False"&gt;
       &lt;INTP Accelerate="No" MacroName="INTP" /&gt;
@@ -2215,14 +2486,14 @@
       &lt;/SAU0&gt;
       &lt;IICA0 Accelerate="No" Chip="RL78G13_24pin,RL78G13_25pin,RL78G13_30pin,RL78G13_32pin,RL78G13_36pin,RL78G13_40pin,RL78G13_44pin,RL78G13_48pin,RL78G13_52pin,RL78G13_64pin,RL78G13_80pin,RL78G13_100pin,RL78G13_128pin" MacroName="IICA" Channel="0" /&gt;
     &lt;/Serial&gt;
-    &lt;ADC SetFlag="" HelpID="adc" NeedRefresh="False"&gt;
-      &lt;ADC SetFlag="" MacroName="ADC" /&gt;
+    &lt;ADC SetFlag="True" HelpID="adc" NeedRefresh="False"&gt;
+      &lt;ADC SetFlag="True" MacroName="ADC" /&gt;
     &lt;/ADC&gt;
-    &lt;TAU SetFlag="false" HelpID="timer" NeedRefresh="False"&gt;
-      &lt;TAU0 Accelerate="No" MacroName="TAU" Channel="0" ChannelNum="0,1,2,3,4,5,6,7" /&gt;
+    &lt;TAU SetFlag="True" HelpID="timer" NeedRefresh="False"&gt;
+      &lt;TAU0 Accelerate="No" MacroName="TAU" Channel="0" ChannelNum="0,1,2,3,4,5,6,7" SetFlag="True" /&gt;
     &lt;/TAU&gt;
-    &lt;WDT Prepared="true" SetFlag="true" HelpID="watchdogtimer" NeedRefresh="False"&gt;
-      &lt;WDT SetFlag="true" MacroName="WDT" /&gt;
+    &lt;WDT Prepared="true" SetFlag="True" HelpID="watchdogtimer" NeedRefresh="False"&gt;
+      &lt;WDT SetFlag="True" MacroName="WDT" /&gt;
     &lt;/WDT&gt;
     &lt;RTC SetFlag="" HelpID="rtc" NeedRefresh="False"&gt;
       &lt;RTC MacroName="RTC" /&gt;
@@ -2292,10 +2563,267 @@
       &lt;setting name="StartStop" value="unused" /&gt;
       &lt;setting name="Emulator" value="E1" /&gt;
     &lt;/CGC&gt;
+    &lt;PORT&gt;
+      &lt;PortP0&gt;
+        &lt;P00&gt;
+          &lt;setting name="Operation" value="output" /&gt;
+          &lt;setting name="Pull_up" value="unused" /&gt;
+          &lt;setting name="TTL_buffer" value="unused" /&gt;
+          &lt;setting name="N-ch_open-drain" value="unused" /&gt;
+          &lt;setting name="Output_value" value="1" /&gt;
+        &lt;/P00&gt;
+        &lt;P01&gt;
+          &lt;setting name="Operation" value="output" /&gt;
+          &lt;setting name="Pull_up" value="unused" /&gt;
+          &lt;setting name="TTL_buffer" value="unused" /&gt;
+          &lt;setting name="N-ch_open-drain" value="unused" /&gt;
+          &lt;setting name="Output_value" value="1" /&gt;
+        &lt;/P01&gt;
+      &lt;/PortP0&gt;
+      &lt;PortP1&gt;
+        &lt;P10&gt;
+          &lt;setting name="Operation" value="unused" /&gt;
+          &lt;setting name="Pull_up" value="unused" /&gt;
+          &lt;setting name="TTL_buffer" value="unused" /&gt;
+          &lt;setting name="N-ch_open-drain" value="unused" /&gt;
+          &lt;setting name="Output_value" value="0" /&gt;
+        &lt;/P10&gt;
+        &lt;P11&gt;
+          &lt;setting name="Operation" value="unused" /&gt;
+          &lt;setting name="Pull_up" value="unused" /&gt;
+          &lt;setting name="TTL_buffer" value="unused" /&gt;
+          &lt;setting name="N-ch_open-drain" value="unused" /&gt;
+          &lt;setting name="Output_value" value="0" /&gt;
+        &lt;/P11&gt;
+        &lt;P12&gt;
+          &lt;setting name="Operation" value="unused" /&gt;
+          &lt;setting name="Pull_up" value="unused" /&gt;
+          &lt;setting name="TTL_buffer" value="unused" /&gt;
+          &lt;setting name="N-ch_open-drain" value="unused" /&gt;
+          &lt;setting name="Output_value" value="0" /&gt;
+        &lt;/P12&gt;
+        &lt;P16&gt;
+          &lt;setting name="Operation" value="output" /&gt;
+          &lt;setting name="Pull_up" value="unused" /&gt;
+          &lt;setting name="TTL_buffer" value="unused" /&gt;
+          &lt;setting name="N-ch_open-drain" value="unused" /&gt;
+          &lt;setting name="Output_value" value="0" /&gt;
+        &lt;/P16&gt;
+        &lt;P17&gt;
+          &lt;setting name="Operation" value="output" /&gt;
+          &lt;setting name="Pull_up" value="unused" /&gt;
+          &lt;setting name="TTL_buffer" value="unused" /&gt;
+          &lt;setting name="N-ch_open-drain" value="unused" /&gt;
+          &lt;setting name="Output_value" value="0" /&gt;
+        &lt;/P17&gt;
+      &lt;/PortP1&gt;
+      &lt;PortP2&gt;
+        &lt;P20&gt;
+          &lt;setting name="Operation" value="unused" /&gt;
+          &lt;setting name="Pull_up" value="unused" /&gt;
+          &lt;setting name="TTL_buffer" value="unused" /&gt;
+          &lt;setting name="N-ch_open-drain" value="unused" /&gt;
+          &lt;setting name="Output_value" value="0" /&gt;
+        &lt;/P20&gt;
+        &lt;P21&gt;
+          &lt;setting name="Operation" value="unused" /&gt;
+          &lt;setting name="Pull_up" value="unused" /&gt;
+          &lt;setting name="TTL_buffer" value="unused" /&gt;
+          &lt;setting name="N-ch_open-drain" value="unused" /&gt;
+          &lt;setting name="Output_value" value="0" /&gt;
+        &lt;/P21&gt;
+        &lt;P22&gt;
+          &lt;setting name="Operation" value="unused" /&gt;
+          &lt;setting name="Pull_up" value="unused" /&gt;
+          &lt;setting name="TTL_buffer" value="unused" /&gt;
+          &lt;setting name="N-ch_open-drain" value="unused" /&gt;
+          &lt;setting name="Output_value" value="0" /&gt;
+        &lt;/P22&gt;
+      &lt;/PortP2&gt;
+      &lt;PortP3&gt;
+        &lt;P30&gt;
+          &lt;setting name="Operation" value="input" /&gt;
+          &lt;setting name="Pull_up" value="unused" /&gt;
+          &lt;setting name="TTL_buffer" value="unused" /&gt;
+          &lt;setting name="N-ch_open-drain" value="unused" /&gt;
+          &lt;setting name="Output_value" value="0" /&gt;
+        &lt;/P30&gt;
+        &lt;P31&gt;
+          &lt;setting name="Operation" value="unused" /&gt;
+          &lt;setting name="Pull_up" value="unused" /&gt;
+          &lt;setting name="TTL_buffer" value="unused" /&gt;
+          &lt;setting name="N-ch_open-drain" value="unused" /&gt;
+          &lt;setting name="Output_value" value="0" /&gt;
+        &lt;/P31&gt;
+      &lt;/PortP3&gt;
+      &lt;PortP4&gt;
+        &lt;P40&gt;
+          &lt;setting name="Operation" value="unused" /&gt;
+          &lt;setting name="Pull_up" value="used" /&gt;
+          &lt;setting name="TTL_buffer" value="unused" /&gt;
+          &lt;setting name="N-ch_open-drain" value="unused" /&gt;
+          &lt;setting name="Output_value" value="0" /&gt;
+        &lt;/P40&gt;
+      &lt;/PortP4&gt;
+      &lt;PortP5&gt;
+        &lt;P50&gt;
+          &lt;setting name="Operation" value="unused" /&gt;
+          &lt;setting name="Pull_up" value="unused" /&gt;
+          &lt;setting name="TTL_buffer" value="unused" /&gt;
+          &lt;setting name="N-ch_open-drain" value="unused" /&gt;
+          &lt;setting name="Output_value" value="0" /&gt;
+        &lt;/P50&gt;
+      &lt;/PortP5&gt;
+      &lt;PortP6&gt;
+        &lt;P60&gt;
+          &lt;setting name="Operation" value="unused" /&gt;
+          &lt;setting name="Pull_up" value="unused" /&gt;
+          &lt;setting name="TTL_buffer" value="unused" /&gt;
+          &lt;setting name="N-ch_open-drain" value="unused" /&gt;
+          &lt;setting name="Output_value" value="0" /&gt;
+        &lt;/P60&gt;
+        &lt;P61&gt;
+          &lt;setting name="Operation" value="unused" /&gt;
+          &lt;setting name="Pull_up" value="unused" /&gt;
+          &lt;setting name="TTL_buffer" value="unused" /&gt;
+          &lt;setting name="N-ch_open-drain" value="unused" /&gt;
+          &lt;setting name="Output_value" value="0" /&gt;
+        &lt;/P61&gt;
+      &lt;/PortP6&gt;
+      &lt;PortP12&gt;
+        &lt;P121&gt;
+          &lt;setting name="Operation" value="unused" /&gt;
+          &lt;setting name="Pull_up" value="unused" /&gt;
+          &lt;setting name="TTL_buffer" value="unused" /&gt;
+          &lt;setting name="N-ch_open-drain" value="unused" /&gt;
+          &lt;setting name="Output_value" value="0" /&gt;
+        &lt;/P121&gt;
+        &lt;P122&gt;
+          &lt;setting name="Operation" value="input" /&gt;
+          &lt;setting name="Pull_up" value="unused" /&gt;
+          &lt;setting name="TTL_buffer" value="unused" /&gt;
+          &lt;setting name="N-ch_open-drain" value="unused" /&gt;
+          &lt;setting name="Output_value" value="0" /&gt;
+        &lt;/P122&gt;
+      &lt;/PortP12&gt;
+      &lt;PortP13&gt;
+        &lt;P137&gt;
+          &lt;setting name="Operation" value="unused" /&gt;
+          &lt;setting name="Pull_up" value="unused" /&gt;
+          &lt;setting name="TTL_buffer" value="unused" /&gt;
+          &lt;setting name="N-ch_open-drain" value="unused" /&gt;
+          &lt;setting name="Output_value" value="0" /&gt;
+        &lt;/P137&gt;
+      &lt;/PortP13&gt;
+      &lt;PortP14&gt;
+        &lt;P147&gt;
+          &lt;setting name="Operation" value="unused" /&gt;
+          &lt;setting name="Pull_up" value="unused" /&gt;
+          &lt;setting name="TTL_buffer" value="unused" /&gt;
+          &lt;setting name="N-ch_open-drain" value="unused" /&gt;
+          &lt;setting name="Output_value" value="0" /&gt;
+        &lt;/P147&gt;
+      &lt;/PortP14&gt;
+    &lt;/PORT&gt;
+    &lt;ADC&gt;
+      &lt;setting name="AD_convertion" value="used" /&gt;
+      &lt;setting name="Comparator_operation" value="enable" /&gt;
+      &lt;setting name="Resolution" value="10bit" /&gt;
+      &lt;setting name="AD_Positive" value="VDD" /&gt;
+      &lt;setting name="AD_Negative" value="VSS" /&gt;
+      &lt;setting name="AD_Trigger" value="softtri" /&gt;
+      &lt;setting name="AD_Trigger_Timer" value="0" /&gt;
+      &lt;setting name="Mode" value="ONESELECT" /&gt;
+      &lt;setting name="InputPins" value="0" /&gt;
+      &lt;setting name="InputPinsAttach" value="ANI0 - ANI2" /&gt;
+      &lt;setting name="AD_Inputpin16" value="unused" /&gt;
+      &lt;setting name="AD_Inputpin17" value="unused" /&gt;
+      &lt;setting name="AD_Inputpin18" value="used" /&gt;
+      &lt;setting name="AD_Inputpin19" value="unused" /&gt;
+      &lt;setting name="AD_Inputpin20" value="unused" /&gt;
+      &lt;setting name="AD_Inputpin21" value="unused" /&gt;
+      &lt;setting name="AD_Inputpin22" value="unused" /&gt;
+      &lt;setting name="AD_Inputpin23" value="unused" /&gt;
+      &lt;setting name="AD_Inputpin24" value="unused" /&gt;
+      &lt;setting name="AD_Inputpin25" value="unused" /&gt;
+      &lt;setting name="AD_Inputpin26" value="unused" /&gt;
+      &lt;setting name="SelectedChannel" value="5" /&gt;
+      &lt;setting name="SelectedChannelAttach" value="temperature" /&gt;
+      &lt;setting name="ConvTimeMode" value="0" /&gt;
+      &lt;setting name="ConversionTime" value="0" /&gt;
+      &lt;setting name="AREAFunction" value="AREA1" /&gt;
+      &lt;setting name="AREAValue_ADUL" value="255" /&gt;
+      &lt;setting name="AREAValue_ADLL" value="0" /&gt;
+      &lt;setting name="Interrput_priority" value="3" /&gt;
+      &lt;setting name="AD_interrupt" value="used" /&gt;
+    &lt;/ADC&gt;
+    &lt;TAU0&gt;
+      &lt;Channel0&gt;
+        &lt;setting name="ChannelFunction" value="1" /&gt;
+        &lt;setting name="Pinselection" value="-1" /&gt;
+        &lt;TAUInterval0&gt;
+          &lt;setting name="OperationMode" value="16bits" /&gt;
+          &lt;setting name="Count_clock" value="MCK clock" /&gt;
+          &lt;setting name="Sub_clock_mode" value="-1" /&gt;
+          &lt;setting name="Interval_value" value="1" /&gt;
+          &lt;setting name="Value_scale" value="0" /&gt;
+          &lt;setting name="Intervalvalue_High8bits" value="100" /&gt;
+          &lt;setting name="Intervalvalue_High8bits_scale" value="-1" /&gt;
+          &lt;setting name="Intervalvalue_Low8bits" value="100" /&gt;
+          &lt;setting name="Intervalvalue_Low8bits_Scale" value="-1" /&gt;
+          &lt;setting name="Generate_interrupt_when_couting_started" value="no" /&gt;
+          &lt;setting name="Interrupt" value="used" /&gt;
+          &lt;setting name="Interrupt_priority" value="3" /&gt;
+          &lt;setting name="InterruptH_priority" value="3" /&gt;
+          &lt;setting name="InterruptH8" value="used" /&gt;
+        &lt;/TAUInterval0&gt;
+      &lt;/Channel0&gt;
+      &lt;Channel1&gt;
+        &lt;setting name="ChannelFunction" value="0" /&gt;
+        &lt;setting name="Pinselection" value="-1" /&gt;
+      &lt;/Channel1&gt;
+      &lt;Channel2&gt;
+        &lt;setting name="ChannelFunction" value="0" /&gt;
+        &lt;setting name="Pinselection" value="-1" /&gt;
+      &lt;/Channel2&gt;
+      &lt;Channel3&gt;
+        &lt;setting name="ChannelFunction" value="0" /&gt;
+        &lt;setting name="Pinselection" value="-1" /&gt;
+      &lt;/Channel3&gt;
+      &lt;Channel4&gt;
+        &lt;setting name="ChannelFunction" value="0" /&gt;
+        &lt;setting name="Pinselection" value="-1" /&gt;
+      &lt;/Channel4&gt;
+      &lt;Channel5&gt;
+        &lt;setting name="ChannelFunction" value="0" /&gt;
+        &lt;setting name="Pinselection" value="-1" /&gt;
+      &lt;/Channel5&gt;
+      &lt;Channel6&gt;
+        &lt;setting name="ChannelFunction" value="0" /&gt;
+        &lt;setting name="Pinselection" value="-1" /&gt;
+      &lt;/Channel6&gt;
+      &lt;Channel7&gt;
+        &lt;setting name="ChannelFunction" value="0" /&gt;
+        &lt;setting name="Pinselection" value="-1" /&gt;
+      &lt;/Channel7&gt;
+    &lt;/TAU0&gt;
+    &lt;WDT&gt;
+      &lt;setting name="Operation" value="used" /&gt;
+      &lt;setting name="Overflow_time" value="7" /&gt;
+      &lt;setting name="Window_opening_time" value="2" /&gt;
+      &lt;setting name="Standby_operation" value="enable" /&gt;
+      &lt;setting name="Interval_interrupt" value="use" /&gt;
+      &lt;setting name="Interval_interrupt_priority" value="3" /&gt;
+    &lt;/WDT&gt;
   &lt;/SETTING&gt;
 &lt;/RL78G13&gt;</CodeGenerator>
       <FormatVersion>1.0</FormatVersion>
       <ToolGUID>42a6e663-6d82-4307-86cb-df6aaac4f083</ToolGUID>
+    </Instance>
+  </Class>
+  <Class Guid="2a2c2a43-ecdb-4e88-80bd-e75f3e33db90">
+    <Instance Guid="2a2c2a43-ecdb-4e88-80bd-e75f3e33db90">
+      <ProductVersion>9.15.00.00</ProductVersion>
     </Instance>
   </Class>
 </CubeSuiteProject>
