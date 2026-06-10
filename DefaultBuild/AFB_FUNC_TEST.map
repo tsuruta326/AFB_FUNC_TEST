@@ -1,4 +1,4 @@
-Renesas Optimizing Linker (W3.08.00 )             29-May-2026 11:56:36
+Renesas Optimizing Linker (W3.08.00 )             10-Jun-2026 11:49:27
 
 *** Options ***
 
@@ -70,7 +70,7 @@ SECTION                            START      END         SIZE   ALIGN
 .text
                                   000000ce  00000155        88   1
 .textf
-                                  00000156  0000047a       325   1
+                                  00000156  0000048e       339   1
 .const
                                   00002000  00002000         0   2
 .bss
@@ -86,7 +86,7 @@ SECTION                            START      END         SIZE   ALIGN
 
 RAMDATA SECTION:  00000007 Byte(s)
 ROMDATA SECTION:  0000001d Byte(s)
-PROGRAM SECTION:  000003ad Byte(s)
+PROGRAM SECTION:  000003c1 Byte(s)
 
 *** Symbol List ***
 
@@ -156,63 +156,63 @@ FILE=DefaultBuild\stkinit.obj
   LSTINIT3
                                   00000199         0   none ,l         * 
 FILE=DefaultBuild\r_main.obj
-                                  0000019a  00000332       199
+                                  0000019a  00000346       1ad
   _main
-                                  0000019a       107   func ,g         * 
+                                  0000019a       11b   func ,g         * 
   _check_sw1_click
-                                  000002a1        23   func ,g         * 
+                                  000002b5        23   func ,g         * 
   _check_sw2_click
-                                  000002c4        23   func ,g         * 
+                                  000002d8        23   func ,g         * 
   _read_adc_p147
-                                  000002e7        48   func ,g         * 
+                                  000002fb        48   func ,g         * 
   _R_MAIN_UserInit
-                                  0000032f         4   func ,g         * 
+                                  00000343         4   func ,g         * 
 FILE=DefaultBuild\r_systeminit.obj
-                                  00000333  00000353        21
+                                  00000347  00000367        21
   _R_Systeminit
-                                  00000333        1c   func ,g         * 
+                                  00000347        1c   func ,g         * 
   _hdwinit
-                                  0000034f         5   func ,g         * 
+                                  00000363         5   func ,g         * 
 FILE=DefaultBuild\r_cg_cgc.obj
-                                  00000354  00000363        10
+                                  00000368  00000377        10
   _R_CGC_Create
-                                  00000354        10   func ,g         * 
+                                  00000368        10   func ,g         * 
 FILE=DefaultBuild\r_cg_cgc_user.obj
-                                  00000364  00000366         3
+                                  00000378  0000037a         3
   _R_CGC_Get_ResetSource
-                                  00000364         3   func ,g         * 
+                                  00000378         3   func ,g         * 
 FILE=DefaultBuild\r_cg_port.obj
-                                  00000367  00000379        13
+                                  0000037b  0000038d        13
   _R_PORT_Create
-                                  00000367        13   func ,g         * 
+                                  0000037b        13   func ,g         * 
 FILE=DefaultBuild\r_cg_adc.obj
-                                  0000037a  000003dc        63
+                                  0000038e  000003f0        63
   _R_ADC_Create
-                                  0000037a        40   func ,g         * 
+                                  0000038e        40   func ,g         * 
   _R_ADC_Start
-                                  000003ba         a   func ,g         * 
+                                  000003ce         a   func ,g         * 
   _R_ADC_Stop
-                                  000003c4         a   func ,g         * 
+                                  000003d8         a   func ,g         * 
   _R_ADC_Set_OperationOn
-                                  000003ce         4   func ,g         * 
+                                  000003e2         4   func ,g         * 
   _R_ADC_Set_OperationOff
-                                  000003d2         4   func ,g         * 
+                                  000003e6         4   func ,g         * 
   _R_ADC_Get_Result
-                                  000003d6         7   func ,g         * 
+                                  000003ea         7   func ,g         * 
 FILE=DefaultBuild\r_cg_timer.obj
-                                  000003dd  00000466        8a
+                                  000003f1  0000047a        8a
   _R_TAU0_Create
-                                  000003dd        6a   func ,g         * 
+                                  000003f1        6a   func ,g         * 
   _R_TAU0_Channel0_Start
-                                  00000447        10   func ,g         * 
+                                  0000045b        10   func ,g         * 
   _R_TAU0_Channel0_Stop
-                                  00000457        10   func ,g         * 
+                                  0000046b        10   func ,g         * 
 FILE=DefaultBuild\r_cg_wdt.obj
-                                  00000467  0000047a        14
+                                  0000047b  0000048e        14
   _R_WDT_Create
-                                  00000467        10   func ,g         * 
+                                  0000047b        10   func ,g         * 
   _R_WDT_Restart
-                                  00000477         4   func ,g         * 
+                                  0000048b         4   func ,g         * 
 
 SECTION=.dataR
 FILE=DefaultBuild\r_main.obj
@@ -239,7 +239,7 @@ FILE=rlink_generates_04
   __s.textf
                                   00000156         0   none ,g         * 
   __e.textf
-                                  0000047b         0   none ,g         * 
+                                  0000048f         0   none ,g         * 
   __s.const
                                   00002000         0   none ,g         * 
   __e.const

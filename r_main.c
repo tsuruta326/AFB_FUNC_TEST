@@ -77,6 +77,7 @@ void R_MAIN_UserInit(void);
 ***********************************************************************************************************************/
 void main(void)
 {
+
     unsigned char sw1_state = 0;  /* 0~3の4状態 */
     unsigned char sw2_state = 0;  /* 0~3の4状態 */
     
@@ -84,6 +85,7 @@ void main(void)
     unsigned char prev_output_active = 0; /* 前回ループ時の出力状態(P16 or P17がHなら1) */
     unsigned char current_output_active = 0; /* 今回ループ時の出力状態 */
     unsigned int adc_val = 0;
+    unsigned char trigger_alert = 0; /* アラート移行フラグ */
     
     R_MAIN_UserInit();
     /* Start user code. Do not edit comment generated here */
@@ -153,7 +155,7 @@ void main(void)
 
         /* --- 3. 出力状態監視とP147(ADC)の電圧監視 --- */
         
-        /* 💡 P16 または P17 のどちらかがHであるかを変数化 */
+        /* P16 または P17 のどちらかがHであるかを変数化 */
         if (P1_bit.no6 == 1 || P1_bit.no7 == 1)
         {
             current_output_active = 1;
@@ -163,36 +165,50 @@ void main(void)
             current_output_active = 0;
         }
         
-        /* 💡 出力が「両方L」から「どちらかがH」に変化した瞬間を検知 */
+        /* 出力が「両方L」から「どちらかがH」に変化した瞬間を検知 */
         if (current_output_active == 1 && prev_output_active == 0)
         {
             g_timer_1ms = 0;       /* タイマクリア */
             monitor_duration = 0;
         }
         
-        /* 出力のどちらかがHの間の時間計測 */
+        /* 出力のどちらかがHの間の時間計測と電圧監視 */
         if (current_output_active == 1)
         {
             monitor_duration += g_timer_1ms;
             g_timer_1ms = 0; /* 累積したらクリア */
+            trigger_alert = 0; /* フラグクリア */
             
-            /* 100ms以降、電圧監視を開始 */
-            if (monitor_duration >= 100)
+            /* 💡 50msec以上 100msec未満のとき：3.0V(614)以上で停止 */
+            if (monitor_duration >= 50 && monitor_duration < 100)
             {
                 adc_val = read_adc_p147();
-                
-                /* 2.0V以上 (10bit ADCで 409以上) */
+                if (adc_val >= 614)
+                {
+                    trigger_alert = 1;
+                }
+            }
+            /* 💡 100msec以上のとき：2.0V(409)以上で停止 */
+            else if (monitor_duration >= 100)
+            {
+                adc_val = read_adc_p147();
                 if (adc_val >= 409)
                 {
-                    /* 1. 全出力をクリア */
-                    P1_bit.no6 = 0; /* P16=L */
-                    P1_bit.no7 = 0; /* P17=L */
-                    sw2_state = 0;  /* SW2の状態も初期状態(1)へリセット */
-                    
-                    /* 2. アラート状態へ移行 */
-                    g_system_mode = STATE_ALERT;
-                    g_timer_1ms = 0;
+                    trigger_alert = 1;
                 }
+            }
+            
+            /* 電圧異常が検出された場合の共通処理 */
+            if (trigger_alert == 1)
+            {
+                /* 1. 全出力をクリア */
+                P1_bit.no6 = 0; /* P16=L */
+                P1_bit.no7 = 0; /* P17=L */
+                sw2_state = 0;  /* SW2の状態も初期状態(1)へリセット */
+                
+                /* 2. アラート状態へ移行 */
+                g_system_mode = STATE_ALERT;
+                g_timer_1ms = 0;
             }
         }
         else
@@ -204,7 +220,7 @@ void main(void)
     }
     /* End user code. Do not edit comment generated here */
 }
-   
+
  /* * SW1(P30) チャタリング防止付きクリック判定関数
  * 戻り値: 1=押して離された, 0=変化なし
  */
